@@ -3,7 +3,7 @@
 //Array to hold collection of mangaNFTs
 let mangaNFTs = [];
 
-//Function to create new manga NFT & addind it to mangaNFTs array
+//Function to create new manga NFT & adding it to mangaNFTs array
 function mintMangaNFT(title, totalVolumes, creator, releaseYear, genre, demographic) 
 {
     const mangaNFT = {
@@ -17,7 +17,7 @@ function mintMangaNFT(title, totalVolumes, creator, releaseYear, genre, demograp
     mangaNFTs.push(mangaNFT);
 }
 
-//Fuction to display all mangaNFT from collection(mangaNFTs array)
+//Function to display all mangaNFT from collection(mangaNFTs array)
 function listMangaNFTs()
 {
     for (let i = 0; i < mangaNFTs.length; i++)
@@ -39,7 +39,7 @@ function getTotalMangaNFTs()
     return mangaNFTs.length;
 }
 
-//Fuction calling-->
+//Function calling-->
 //Adding some mangaNFT to the collection
 mintMangaNFT("One Piece",107,"Eiichiro Oda",1997,"Adventure","Shonen");
 mintMangaNFT("Naruto",72,"Masashi Kishimoto",1999,"Action","Shonen");
